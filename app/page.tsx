@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <header className="space-y-1">
         <h1 className="font-medium">Jeffrey Yao</h1>
-        <time className="text-neutral-500/75">Updated July 18, 2025</time>
+        <time className="text-neutral-500/75">Updated July 23, 2025</time>
       </header>
 
       <section className="space-y-4">
