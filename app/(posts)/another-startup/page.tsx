@@ -47,22 +47,26 @@ export default function AnotherStartup() {
         <div className="w-12 border-t border-neutral-300" />
         <section className="space-y-2">
           <h2 className="font-medium">What's your idea?</h2>
-          <p>
-            It's a secret — you'll find out later this year if you follow along
-            below 😄
-          </p>
+          <p>It's a secret for now.</p>
+        </section>
+        <section className="space-y-2">
+          <h2 className="font-medium">When are you launching?</h2>
+          <p>Waitlist and beta dropping later this year.</p>
         </section>
         <section className="space-y-2">
           <h2 className="font-medium">Where can I follow along?</h2>
           <p>
+            For now,{" "}
             <Link href="http://instagram.com/jeffreydyao">@jeffreydyao</Link> on
-            Instagram, where I'll post behind-the-scenes content, and my{" "}
+            Instagram, where I'll post content, and my{" "}
             <Link href="https://www.linkedin.com/in/jeffreydyao/">
               LinkedIn
             </Link>{" "}
-            for more formal announcements. You should really follow along, we're
-            trying to do something great!
+            for more formal announcements. Once we drop a waitlist, we'll have a
+            website and official social media accounts. You should really follow
+            along, we're trying to do something great!
           </p>
+          <p>We'll drop</p>
         </section>
         <section className="space-y-2">
           <h2 className="font-medium">Who's your co-founder?</h2>
