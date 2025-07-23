@@ -41,18 +41,18 @@ export default function AnotherStartup() {
         </p>
       </section>
 
-      <section className="space-y-4 mt-4">
+      <section className="space-y-6 mt-6">
         <div className="w-12 border-t border-neutral-300" />
         <section className="space-y-2">
-          <h2 className="font-medium">What's your idea?</h2>
+          <h2 className="font-semibold">What's your idea?</h2>
           <p>It's a secret for now.</p>
         </section>
         <section className="space-y-2">
-          <h2 className="font-medium">When are you launching?</h2>
+          <h2 className="font-semibold">When are you launching?</h2>
           <p>Waitlist and beta dropping later this year.</p>
         </section>
         <section className="space-y-2">
-          <h2 className="font-medium">Where can I follow along?</h2>
+          <h2 className="font-semibold">Where can I follow along?</h2>
           <p>
             For now,{" "}
             <Link href="http://instagram.com/jeffreydyao">@jeffreydyao</Link> on
@@ -69,7 +69,7 @@ export default function AnotherStartup() {
           </p>
         </section>
         <section className="space-y-2">
-          <h2 className="font-medium">Who's your co-founder?</h2>
+          <h2 className="font-semibold">Who's your co-founder?</h2>
           <p>
             I'm doing this with my partner,{" "}
             <Link href="https://meganfan.co">Megan</Link>, who was previously a
@@ -78,7 +78,7 @@ export default function AnotherStartup() {
           </p>
         </section>
         <section className="space-y-2">
-          <h2 className="font-medium">Are you looking for engineers?</h2>
+          <h2 className="font-semibold">Are you looking for engineers?</h2>
           <p>
             Not at this point in time, and probably not for a long while. The
             best place to stay updated is my{" "}
@@ -90,10 +90,10 @@ export default function AnotherStartup() {
         </section>
       </section>
 
-      <section className="space-y-4 mt-4">
+      <section className="space-y-6 mt-6">
         <div className="w-12 border-t border-neutral-300" />
         <section className="space-y-2">
-          <h2 className="font-medium">Can I stay in touch with you?</h2>
+          <h2 className="font-semibold">Can I stay in touch with you?</h2>
           <p>
             I'm always interested in being friends with people who love to build
             and/or are passionate about engineering / design! Please feel free
