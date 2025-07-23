@@ -47,7 +47,10 @@ export default function AnotherStartup() {
         <div className="w-12 border-t border-neutral-300" />
         <section className="space-y-2">
           <h2 className="font-medium">What's your idea?</h2>
-          <p>It's a secret — you'll find out later this year 😄</p>
+          <p>
+            It's a secret — you'll find out later this year if you follow along
+            below 😄
+          </p>
         </section>
         <section className="space-y-2">
           <h2 className="font-medium">Where can I follow along?</h2>
