@@ -1,7 +1,5 @@
 import { Metadata } from "next";
 import { Link } from "../../components/Link";
-import NextLink from "next/link";
-import { Undo2 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "I'm building another AI start-up",
@@ -62,11 +60,13 @@ export default function AnotherStartup() {
             <Link href="https://www.linkedin.com/in/jeffreydyao/">
               LinkedIn
             </Link>{" "}
-            for more formal announcements. Once we drop a waitlist, we'll have a
-            website and official social media accounts. You should really follow
-            along, we're trying to do something great!
+            for more formal announcements.
           </p>
-          <p>We'll drop</p>
+          <p>
+            Once we drop a waitlist, we'll have a website and official social
+            media accounts. You should really follow along, we're trying to do
+            something great!
+          </p>
         </section>
         <section className="space-y-2">
           <h2 className="font-medium">Who's your co-founder?</h2>
