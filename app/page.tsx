@@ -1,4 +1,5 @@
 import { Link } from "./components/Link";
+import { Posts } from "./components/Posts";
 
 export default function Home() {
   return (
@@ -38,6 +39,8 @@ export default function Home() {
           <Link href="https://www.linkedin.com/in/jeffreydyao/">LinkedIn</Link>.
         </p>
       </section>
+
+      <Posts />
     </>
   );
 }

@@ -1,11 +1,14 @@
 import { Metadata } from "next";
-import { Link } from "../components/Link";
+import { Link } from "../../components/Link";
+import NextLink from "next/link";
+import { Undo2 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "I'm building another AI start-up | Jeffrey Yao",
+  title: "I'm building another AI start-up",
+  description: "More news later this year.",
 };
 
-export default function TikTok() {
+export default function AnotherStartup() {
   return (
     <>
       <header className="space-y-1">
@@ -58,12 +61,10 @@ export default function TikTok() {
           </p>
         </section>
         <section className="space-y-2">
-          <h2 className="font-medium">
-            Is it just you, or do you have a co-founder?
-          </h2>
+          <h2 className="font-medium">Who's your co-founder?</h2>
           <p>
-            I'm doing this together with my partner, who was previously a PM at
-            a Sydney start-up and worked in Strategy/Ops at Uber.
+            I'm doing this together with my partner, Megan, who was previously a
+            PM at a Sydney start-up and worked in Strategy/Ops at Uber.
           </p>
         </section>
         <section className="space-y-2">
@@ -96,6 +97,15 @@ export default function TikTok() {
           </p>
         </section>
       </section>
+
+      <footer>
+        <NextLink className="inline-block" href="/">
+          <Undo2 className="inline mr-1 text-neutral-700/50" size={16} />
+          <span className="text-neutral-700 hover:text-neutral-950 transition">
+            yao.dev
+          </span>
+        </NextLink>
+      </footer>
     </>
   );
 }
