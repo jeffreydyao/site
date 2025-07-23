@@ -1,11 +1,12 @@
 import NextLink from "next/link";
+import { metadata } from "../(posts)/startup/page";
 
 const posts = [
   {
     year: 2025,
     date: "23/07",
-    name: "I'm building another AI start-up",
-    route: "/another-startup",
+    name: metadata.title as string,
+    route: "/startup",
   },
 ];
 

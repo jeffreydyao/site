@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { Link } from "../../components/Link";
 
 export const metadata: Metadata = {
-  title: "I'm building another AI start-up",
+  title: "I'm building an AI start-up",
   description: "More news later this year.",
 };
 
@@ -10,7 +10,7 @@ export default function AnotherStartup() {
   return (
     <>
       <header className="space-y-1">
-        <h1 className="font-medium">I'm building another AI start-up</h1>
+        <h1 className="font-medium">{metadata.title as string}</h1>
         <time className="text-neutral-500/75">Updated July 23, 2025</time>
       </header>
 
@@ -71,7 +71,7 @@ export default function AnotherStartup() {
         <section className="space-y-2">
           <h2 className="font-medium">Who's your co-founder?</h2>
           <p>
-            I'm doing this together with my partner,{" "}
+            I'm doing this with my partner,{" "}
             <Link href="https://meganfan.co">Megan</Link>, who was previously a
             PM at <Link href="https://www.thebrightapp.xyz">Bright</Link> and
             worked in Strategy/Ops at Uber.
