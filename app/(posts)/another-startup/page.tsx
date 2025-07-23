@@ -18,8 +18,9 @@ export default function AnotherStartup() {
 
       <section className="space-y-4">
         <p>
-          Hey, you came here from Lark 👋 I'm Jeffrey, a 23 year old software
-          engineer in Sydney who's a builder and start-up enthusiast at heart.
+          Hi, you're either here from Lark or clicked through elsewhere 👋 I'm
+          Jeffrey, a 23 year old software engineer in Sydney who's a builder and
+          start-up enthusiast at heart.
         </p>
         <p>
           At TikTok, I was on the Live Campaign - Revenue team. Before that, I
