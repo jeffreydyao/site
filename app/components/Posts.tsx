@@ -4,7 +4,7 @@ import { metadata } from "../(posts)/startup/page";
 const posts = [
   {
     year: 2025,
-    date: "23/07",
+    date: "24/07",
     name: metadata.title as string,
     route: "/startup",
   },

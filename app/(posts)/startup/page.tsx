@@ -11,7 +11,7 @@ export default function AnotherStartup() {
     <>
       <header className="space-y-1">
         <h1 className="font-medium">{metadata.title as string}</h1>
-        <time className="text-neutral-500/75">Updated July 23, 2025</time>
+        <time className="text-neutral-500/75">Updated July 24, 2025</time>
       </header>
 
       <section className="space-y-4">
