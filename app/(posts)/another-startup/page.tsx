@@ -97,15 +97,6 @@ export default function AnotherStartup() {
           </p>
         </section>
       </section>
-
-      <footer>
-        <NextLink className="inline-block" href="/">
-          <Undo2 className="inline mr-1 text-neutral-700/50" size={16} />
-          <span className="text-neutral-700 hover:text-neutral-950 transition">
-            yao.dev
-          </span>
-        </NextLink>
-      </footer>
     </>
   );
 }
