@@ -18,7 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.className}`}>
-      <body>{children}</body>
+      <body>
+        <article className="flex justify-center p-8 py-12 md:p-16">
+          <main className="w-full max-w-2xl space-y-6">{children}</main>
+        </article>
+      </body>
       <Analytics />
     </html>
   );
