@@ -64,7 +64,8 @@ export default function AnotherStartup() {
         <section className="space-y-2">
           <h2 className="font-medium">Who's your co-founder?</h2>
           <p>
-            I'm doing this together with my partner, Megan, who was previously a
+            I'm doing this together with my partner,{" "}
+            <Link href="https://meganfan.co">Megan</Link>, who was previously a
             PM at <Link href="https://www.thebrightapp.xyz">Bright</Link> and
             worked in Strategy/Ops at Uber.
           </p>
