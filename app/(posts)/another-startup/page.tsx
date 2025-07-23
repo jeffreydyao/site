@@ -57,7 +57,7 @@ export default function AnotherStartup() {
             <Link href="https://www.linkedin.com/in/jeffreydyao/">
               LinkedIn
             </Link>{" "}
-            for more formal announcements. You shuold really follow along, we're
+            for more formal announcements. You should really follow along, we're
             trying to do something great!
           </p>
         </section>
@@ -65,7 +65,8 @@ export default function AnotherStartup() {
           <h2 className="font-medium">Who's your co-founder?</h2>
           <p>
             I'm doing this together with my partner, Megan, who was previously a
-            PM at a Sydney start-up and worked in Strategy/Ops at Uber.
+            PM at <Link href="https://www.thebrightapp.xyz">Bright</Link> and
+            worked in Strategy/Ops at Uber.
           </p>
         </section>
         <section className="space-y-2">
