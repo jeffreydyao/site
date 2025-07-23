@@ -96,8 +96,8 @@ export default function AnotherStartup() {
           <h2 className="font-semibold">Can I stay in touch with you?</h2>
           <p>
             I'm always interested in being friends with people who love to build
-            and/or are passionate about engineering / design! Please feel free
-            to reach out 😄
+            and/or are passionate about engineering/design! Please feel free to
+            reach out 😄
           </p>
           <p>
             And if you'd like advice on start-ups here in Sydney or in general,
